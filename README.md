@@ -44,11 +44,14 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 
 2. 모델학습
 2.1 Dataset loading
-   - huggingface에서 제공하는 transformer 라이브러리 사용
+- huggingface에서 제공하는 transformer 라이브러리 사용
+  
 2.2 Data preparation
-  -학습, 검증, 테스트 데이터 세트에서 데이터 준비
+-학습, 검증, 테스트 데이터 세트에서 데이터 준비
+
 2.3 Prep for Pytorch
-  -tokenizing
+-tokenizing
+
 2.4 Multi-BERT model
 -GPU setting
 -Model setting
