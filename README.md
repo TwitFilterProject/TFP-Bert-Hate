@@ -3,6 +3,7 @@
 ## 오픈소스 팀 과제- BERT 활용한 혐오표현 탐지 및 분류<박서은>
 ### 1.1 사용한 데이터
 - A Multi-label Hate Speech Detection 데이터셋(K-MHaS)
+- https://github.com/adlnlp/K-MHaS
 ### 1.2 데이터셋 구조
 - 한국 온라인 뉴스 댓글 의 109,692개 발화로 구성되며 , 8개의 세분화된 라벨로 분류됩니다.
 - (a) 이진 분류 및 (b) 다중 라벨 분류를 제공합니다.
