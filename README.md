@@ -1,10 +1,13 @@
 # TFP-Bert-Hate
 
 ## 오픈소스 팀 과제- BERT 활용한 혐오표현 탐지 및 분류<박서은>
+1.1 사용한 데이터
+- A Multi-label Hate Speech Detection 데이터셋(K-MHaS)
+1.2 데이터셋 구조
 - 한국 온라인 뉴스 댓글 의 109,692개 발화로 구성되며 , 8개의 세분화된 라벨로 분류됩니다.
 - (a) 이진 분류 및 (b) 1(1)에서 4(4) 라벨까지의 다중 라벨 분류를 제공합니다.
 
-## 다중라벨 주석
+#### 다중라벨 주석
 
 two layers: 
 - **(a) 이진** classification (`Hate Speech` or `Not Hate Speech`) and 
@@ -18,7 +21,7 @@ two layers:
     - `Race`(인종차별)
     - `Profanity`(혐오욕설)
  
-## Dataset Details
+#### Dataset Details
 
 label types  |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8
 ----------|-----------|-----------|-----------|----------|----------|---------|---------|---------|-----------
@@ -37,3 +40,19 @@ document	label
 OOO천지 개독교 새끼들아 다 착해져라!	3,7
 다들 오지랖 좀...되게 할 짓 없어보여요	8
 ```
+
+
+2. 모델학습
+2.1 Dataset loading
+   - huggingface에서 제공하는 transformer 라이브러리 사용
+2.2 Data preparation
+  -학습, 검증, 테스트 데이터 세트에서 데이터 준비
+2.3 Prep for Pytorch
+  -tokenizing
+2.4 Multi-BERT model
+-GPU setting
+-Model setting
+-Model training
+-Evaluation
+-Break down evaluation
+-test
