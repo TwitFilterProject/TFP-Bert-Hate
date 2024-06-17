@@ -1,6 +1,7 @@
 # TFP-Bert-Hate
 
 ## 오픈소스 팀 과제- BERT 활용한 혐오표현 탐지 및 분류<박서은>
+코랩링크: <https://colab.research.google.com/drive/1Y43Ypg5PJKgymtPLvwKJ9YoGkfhzOoVf?usp=sharing>
 ### 1.1 사용한 데이터
 - A Multi-label Hate Speech Detection 데이터셋(K-MHaS)
 - https://github.com/adlnlp/K-MHaS
