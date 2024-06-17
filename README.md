@@ -1,9 +1,9 @@
 # TFP-Bert-Hate
 
 ## 오픈소스 팀 과제- BERT 활용한 혐오표현 탐지 및 분류<박서은>
-1.1 사용한 데이터
+### 1.1 사용한 데이터
 - A Multi-label Hate Speech Detection 데이터셋(K-MHaS)
-1.2 데이터셋 구조
+### 1.2 데이터셋 구조
 - 한국 온라인 뉴스 댓글 의 109,692개 발화로 구성되며 , 8개의 세분화된 라벨로 분류됩니다.
 - (a) 이진 분류 및 (b) 1(1)에서 4(4) 라벨까지의 다중 라벨 분류를 제공합니다.
 
@@ -42,20 +42,20 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 ```
 
 
-2. 모델학습
-2.1 Dataset loading
+## 2. 모델학습
+### 2.1 Dataset loading
 - huggingface에서 제공하는 transformer 라이브러리 사용
   
-2.2 Data preparation
--학습, 검증, 테스트 데이터 세트에서 데이터 준비
+### 2.2 Data preparation
+- 학습, 검증, 테스트 데이터 세트에서 데이터 준비
 
-2.3 Prep for Pytorch
--tokenizing
+### 2.3 Prep for Pytorch
+- tokenizing
 
-2.4 Multi-BERT model
--GPU setting
--Model setting
--Model training
--Evaluation
--Break down evaluation
--test
+### 2.4 Multi-BERT model
+- GPU setting
+- Model setting
+- Model training
+- Evaluation
+- Break down evaluation
+- test
