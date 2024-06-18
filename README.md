@@ -7,13 +7,13 @@
 - https://github.com/adlnlp/K-MHaS
 ### 1.2 데이터셋 구조
 - 한국 온라인 뉴스 댓글 의 109,692개 발화로 구성되며 , 8개의 세분화된 라벨로 분류됩니다.
-- (a) 이진 분류 및 (b) 다중 라벨 분류를 제공합니다.
+- (a) 이진 분류 및 (b) 다중 라벨(1~4) 분류를 제공합니다.
 
 #### 다중라벨 주석
 
 two layers: 
 - **(a) 이진** classification (`Hate Speech` or `Not Hate Speech`) and 
-- **(b) 다중라벨** classification. 
+- **(b) 세부라벨** classification. 
     - `Politics`(정치성향차별)
     - `Origin`(출신차별)
     - `Physical`(외모차별)
@@ -66,4 +66,7 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 - 6가지 지표(F1-[macro, micro, weighted], Exact Match, AUC and Hamming Loss) 사용하여 평가
 
 ### BERT 전반적 성능
-(https://github.com/TwitFilterProject/TFP-Bert-Hate/assets/165137301/93354dd3-eb0d-4e9d-b0b7-9fadda823587)
+![BERT전반적성능(표)](https://github.com/TwitFilterProject/TFP-Bert-Hate/assets/165137301/93354dd3-eb0d-4e9d-b0b7-9fadda823587)
+
+### Multi-label 분류 성능(label 1~4)
+![Multilabel분류성능(표)](https://github.com/TwitFilterProject/TFP-Bert-Hate/assets/165137301/a1776eb0-edb6-4c7e-95df-135f9c6f4a71)
