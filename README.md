@@ -1,7 +1,7 @@
 # TFP-Bert-Hate
 
 ## 오픈소스 팀 과제- BERT 활용한 혐오표현 탐지 및 분류<박서은>
-[Try in colab](https://colab.research.google.com/drive/1Y43Ypg5PJKgymtPLvwKJ9YoGkfhzOoVf?usp=sharing)
+[Try in colab](https://colab.research.google.com/drive/1QNemag9uTQ8ewzjap9KLRvF88z75XJkc)
 ### 1.1 사용한 데이터
 - A Multi-label Hate Speech Detection 데이터셋(K-MHaS)
 - https://github.com/adlnlp/K-MHaS
@@ -48,7 +48,7 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 ### 2.1 Dataset loading
 - huggingface에서 제공하는 transformer 라이브러리 사용
   
-### 2.2 Data preparation
+### 2.2 Data preparation- 
 - 학습, 검증, 테스트 데이터 세트에서 데이터 준비
 
 ### 2.3 Prep for Pytorch
@@ -61,3 +61,9 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 - Evaluation
 - Break down evaluation
 - test
+
+## 실험
+- 6가지 지표(F1-[macro, micro, weighted], Exact Match, AUC and Hamming Loss) 사용하여 평가
+
+### BERT 전반적 성능
+(https://github.com/TwitFilterProject/TFP-Bert-Hate/assets/165137301/93354dd3-eb0d-4e9d-b0b7-9fadda823587)
