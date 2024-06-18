@@ -63,7 +63,7 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 - test
 
 ## 실험
-- 6가지 지표(F1-[macro, micro, weighted], Exact Match, AUC and Hamming Loss) 사용하여 평가
+- 6가지 지표(Accuracy, F1-[macro, micro, weighted], AUC, Hamming Loss) 사용하여 평가
 
 ### BERT 전반적 성능
 ![BERT전반적성능(표)](https://github.com/TwitFilterProject/TFP-Bert-Hate/assets/165137301/93354dd3-eb0d-4e9d-b0b7-9fadda823587)
