@@ -73,9 +73,9 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 
 
 ## 테스트
--precision: 정밀도, 모델이 양성으로 예측한 것 중 실제로 양성인 비율
--recall: 재현율, 실제 양성인 것 중 모델이 양성으로 예측한 비율
--f1-score: F1 점수, 정밀도와 재현율의 조화 평균
--support: 각 클래스에 속하는 실제 샘플 수
+- precision: 정밀도, 모델이 양성으로 예측한 것 중 실제로 양성인 비율
+- recall: 재현율, 실제 양성인 것 중 모델이 양성으로 예측한 비율
+- f1-score: F1 점수, 정밀도와 재현율의 조화 평균
+- support: 각 클래스에 속하는 실제 샘플 수
 ### 테스트결과
 ![test결과](https://github.com/TwitFilterProject/TFP-Bert-Hate/assets/165137301/c411b859-fa5a-4164-97a9-95c61c33f85f)
