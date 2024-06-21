@@ -80,6 +80,8 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 #### 테스트결과
 ![test결과](https://github.com/TwitFilterProject/TFP-Bert-Hate/assets/165137301/c411b859-fa5a-4164-97a9-95c61c33f85f)
 
+## 모델 다운로드 
+https://drive.google.com/file/d/1icgJ-LHUrP4aV3Mm3DVIFc8EdzjlmcFk/view?usp=drive_link 
 
 ## License
 ### Aparch 2.0
