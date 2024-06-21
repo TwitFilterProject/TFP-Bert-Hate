@@ -79,3 +79,20 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 - support: 각 클래스에 속하는 실제 샘플 수
 #### 테스트결과
 ![test결과](https://github.com/TwitFilterProject/TFP-Bert-Hate/assets/165137301/c411b859-fa5a-4164-97a9-95c61c33f85f)
+
+
+## License
+### Aparch 2.0
+- Copyright [2024] [박서은]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
