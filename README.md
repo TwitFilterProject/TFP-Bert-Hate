@@ -83,7 +83,7 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 
 ## License
 ### Aparch 2.0
-- Copyright [2024] [박서은]
+Copyright [2024] [박서은]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -98,4 +98,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ### 라이브러리
-[huggingface](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech)
+[huggingface](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) 참고
