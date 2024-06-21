@@ -103,7 +103,7 @@ limitations under the License.
 [huggingface](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) 참고
 
 ### 데이터셋
-
+```
 @inproceedings{lee-etal-2022-k,
     title = "K-{MH}a{S}: A Multi-label Hate Speech Detection Dataset in {K}orean Online News Comment",
     author = "Lee, Jean  and
